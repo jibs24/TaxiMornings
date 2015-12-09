@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private double fact;
     private double carte;
     private double cheque;
-    private boolean septieme;
-    private boolean ferie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
