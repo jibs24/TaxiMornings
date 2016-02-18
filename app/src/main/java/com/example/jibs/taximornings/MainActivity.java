@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Price A corriger" + PRICE, Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
+                //meeeerde!!
             }
         });
 
