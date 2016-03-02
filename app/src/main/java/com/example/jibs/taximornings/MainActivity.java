@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         EditText cheq = (EditText) findViewById(R.id.sendCheques);
         setCheque(cheq);
 
-
+    ///1213EZREFDXRGTHS
 
 
     }
