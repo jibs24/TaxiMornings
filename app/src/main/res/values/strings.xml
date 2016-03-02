@@ -15,4 +15,5 @@
     <string name="Envoyer">OK</string>
     <string name="ferie">férié</string>
     <string name="checkferie">ferié</string>
+    <string name="title_activity_price_acivity">priceAcivity</string>
 </resources>

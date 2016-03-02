@@ -101,18 +101,23 @@ public class MainActivity extends AppCompatActivity {
         EditText cheq = (EditText) findViewById(R.id.sendCheques);
         setCheque(cheq);
 
+        Forfait forfait = new Forfait(getKmDep(), getKmArr(),getCheque(), getFact(), getCarte());
+
+
 
         final double PRICE =calcul(getKmArr(), getKmDep(), getFact(), getCarte(), getCheque());
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Price " + PRICE, Snackbar.LENGTH_SHORT)
+                Snackbar.make(view, "Price A corriger" + PRICE, Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
             }
         });
 
     }
+
+
 
     public void cancelButton(View view) {
 
